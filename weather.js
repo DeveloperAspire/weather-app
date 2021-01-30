@@ -12,14 +12,8 @@ function fetchData(){
     const URL = `https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=${API_KEY}`
 
     fetch(URL)
-    .then((response)=>{
-        return response.json()
-
-    })
-    .then( (data)=>{
-
-        displayData(data) 
-    })
+    .then((response)=> response.json())
+    .then( (data)=> displayData(data) )
 
     // CLEAR INPUT
 
