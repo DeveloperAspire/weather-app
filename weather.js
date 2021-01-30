@@ -18,11 +18,14 @@ function fetchData(){
     })
     .then( (data)=>{
 
-        displayData(data)
-
-
-        
+        displayData(data) 
     })
+
+    // CLEAR INPUT
+
+setTimeout(()=>{
+    input.value= ""
+   },700)
 }
 
 // THIS FUNCTION DISPLAYS THE DATA TO THE HTML PAGE
@@ -83,7 +86,8 @@ function displayData(data){
         // ADD TO MAIN
        
        main.appendChild(section)
-        
+    
+       
 
 }
 
