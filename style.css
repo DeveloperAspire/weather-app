@@ -81,15 +81,10 @@ main{
 
 
 @media (min-width: 1024px) {
-    
-
-    main{
-        text-align: center;
-        margin:2rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1rem;
-       }
+    .weather-card{
+       width:50%;
+       margin: 0 auto;
+    }
 }
 
 
