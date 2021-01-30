@@ -35,7 +35,7 @@ let finalresults = `
 </div>
 
 <div class="card-body">
-    <p class="para">Temperature:${data.main.temp} </p>
+    <p class="para">Temperature:${data.main.temp} deg</p>
     <p  class="para"> Pressure: ${data.main.pressure}</p>
     <p  class="para"> Humidity: ${data.main.humidity}</p>
     <p  class="para">Weather state: ${data.weather[0].description}</p>
