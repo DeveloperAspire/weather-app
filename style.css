@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    background-color: brown;
+    color:whitesmoke;
+    text-align: center;
+    padding:1rem;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.text{
+    font-size: 22px;
+    margin-top:1.2rem;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    margin-right: 2px;
+}
+.btn{
+    display: inline;
+    padding:0.8rem;
+    outline: none;
+    border:none;
+    border-radius: 0.1rem;
+    background-color: tomato;
+    color:white;
+    transition: background , color 300ms ease-in-out;
+}
+.btn:hover{
+    background-color: white;
+    color:tomato;
+}
+
+main{
+ text-align: center;
+ margin:2rem;
+}
+.weather-card{
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+}
+.title{
+    background-color: tomato;
+    border-radius:0.5rem ;
+    color:white;
+    padding:1px 0;
+}
+.card-body{
+    text-align: left;
+    padding:1px;
+}
+.para{
+    margin-left:1rem;
+}
+
+
+@media (min-width: 1024px) {
+    
+
+    main{
+        text-align: center;
+        margin:2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+       }
+}
+
+
+
+
